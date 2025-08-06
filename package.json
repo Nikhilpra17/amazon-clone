@@ -1,0 +1,23 @@
+{
+  "name": "amazon-clone",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node backend/app.js",
+    "dev": "NODE_ENV=DEVELOPMENT nodemon backend/app.js",
+    "prod": "NODE_ENV=PRODUCTION nodemon backend/app.js",
+    "seeder": "node backend/seeder/seeder.js"
+  },
+  "author": "Nikhil Pratap Singh",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
